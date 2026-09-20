@@ -1,0 +1,36 @@
+{
+  "name": "Test Group Chat",
+  "type": "public_supergroup",
+  "id": 987654321,
+  "messages": [
+    {
+      "id": 101,
+      "type": "message",
+      "date": "2026-08-11T12:00:00",
+      "date_unixtime": "1786449600",
+      "from": "Alice Smith",
+      "from_id": "user11111",
+      "text": "Hello group! Is anyone working on Stage 1?"
+    },
+    {
+      "id": 102,
+      "type": "message",
+      "date": "2026-08-11T12:05:00",
+      "date_unixtime": "1786449900",
+      "from": "Bob Jones",
+      "from_id": "user22222",
+      "reply_to_message_id": 101,
+      "text": "Yes Alice, we are building the Telegram Core Ingest layer now."
+    },
+    {
+      "id": 103,
+      "type": "message",
+      "date": "2026-08-11T12:10:00",
+      "date_unixtime": "1786450200",
+      "from": "Alice Smith",
+      "from_id": "user11111",
+      "reply_to_message_id": 102,
+      "text": "Awesome! Make sure no Gemini calls happen during ingest."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+app:
+  env: development
+  log_level: INFO
+
+telegram:
+  bot_token: ""
+
+llm:
+  provider: gemini
+  chat_model: gemini-3.5-flash-lite
+  summary_model: gemini-3.5-flash-lite
+  embedding_model: models/embedding-001
+
+database:
+  url: postgresql://user:password@localhost:5432/telegram_ai_bot
+
+redis:
+  url: redis://localhost:6379/0
